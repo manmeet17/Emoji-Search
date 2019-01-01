@@ -32,22 +32,24 @@ code {
   text-align: center;
 }
 
+
 .emoji-res-row {
   border-bottom: 1px solid #ccc;
   padding: 10px;
-  height: 32px;
+  height: 60px;
   position: relative;
   font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
   cursor: pointer;
 }
 
 .emoji-res-row img {
-  width: 32px;
-  height: 32px;
-  padding-right: 10px;
+  width: 35px;
+  height: 35px;
 }
 
 .emoji-res-row .title {
-  position: relative;
-  top: -8px;
+  position: absolute;
+  top: 12px;
+  left: 60px;
+  font-size: 22px;
 }
