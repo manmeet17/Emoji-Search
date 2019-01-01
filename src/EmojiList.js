@@ -9,7 +9,8 @@ export default class EmojiList extends Component{
             {this.props.list.map((item) =>(
                 <EmojiRow 
                 sym={item.symbol}
-                title={item.title} 
+                title={item.title}
+                key={item.title}
                 />
             ))}
         </div>

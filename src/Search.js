@@ -15,7 +15,7 @@ class Search extends Component{
         this.setState({
             searchText: e.target.value
         });
-        console.log(this.state);
+        this.props.handleSearch(this.state.searchText);
     }
 
     render(){
