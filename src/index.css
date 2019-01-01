@@ -12,3 +12,42 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.title{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title h3{
+  margin: 0 10px;
+}
+
+.search{
+  width: 80% !important;
+  margin: 10px auto !important;
+}
+
+.input-field{
+  text-align: center;
+}
+
+.emoji-res-row {
+  border-bottom: 1px solid #ccc;
+  padding: 10px;
+  height: 32px;
+  position: relative;
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+  cursor: pointer;
+}
+
+.emoji-res-row img {
+  width: 32px;
+  height: 32px;
+  padding-right: 10px;
+}
+
+.emoji-res-row .title {
+  position: relative;
+  top: -8px;
+}
